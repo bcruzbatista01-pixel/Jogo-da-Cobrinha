@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Pink & Purple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>🐍 Snake Pink & Purple</h1>
+
+        <div class="painel">
+            <span>Pontos: <strong id="score">0</strong></span>
+            <span>Recorde: <strong id="record">0</strong></span>
+        </div>
+
+        <div class="game-area">
+            <canvas id="game" width="400" height="400"></canvas>
+
+            <div id="message" class="message">
+                <h2>Snake Game</h2>
+                <p>Está pronta para jogar?</p>
+                <button id="startBtn">Começar jogo</button>
+            </div>
+        </div>
+
+        <p class="instructions">
+            Use as setas do teclado para jogar!
+        </p>
+
+        <button id="restartBtn">Reiniciar</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
